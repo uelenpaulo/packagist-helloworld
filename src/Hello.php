@@ -4,8 +4,11 @@ namespace HelloWorld;
 
 class Hello
 {
+    const VERSION = '1.1.4';
+
     public static function sayHello()
     {
-        echo "Hello You!" . PHP_EOL;
+        $version = self::VERSION;
+        echo "$version: Hello You!" . PHP_EOL;
     }
 }
