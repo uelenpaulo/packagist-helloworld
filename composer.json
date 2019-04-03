@@ -1,0 +1,20 @@
+{
+    "name": "uelenpaulo/packagist-helloworld",
+    "description": "Packagist Hello World Test",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Uelen Paulo",
+            "email": "uelenpaulo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelloWorld\\": "src/"
+        }
+    }
+}
